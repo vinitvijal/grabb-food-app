@@ -1,0 +1,109 @@
+.food_products_card {
+    align-items: center;
+    border-bottom: 1.5px solid #d3d3d3;
+    display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: space-between;
+    min-width: 550px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.card_left_div {
+    width: 300px;
+    word-break: break-word;
+}
+
+.add_cart, .add_cart:hover {
+    text-decoration: none;
+}
+
+.add_cart {
+    background: #fff;
+    border: 1.4px solid #ced9cf;
+    border-radius: 2px;
+    bottom: 15px;
+    color: #1dcc2e;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 13px;
+    left: 55px;
+    padding: 7px 30px;
+    position: relative;
+}
+
+
+#bannerRestaurant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+#bannerRestaurant img {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    filter: brightness(50%) saturate(140%) blur(3px);
+}
+
+.scrollCategory {
+    background-color: #19376D;
+    overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollCategory a {
+    display: inline-block;
+    color: var(--bs-gray-100);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    width: 200px;
+    border-right: 1px solid white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+    height: 50%;
+    font-weight: 700;
+}
+
+.scrollCategory a:hover{
+    background-color: white;
+}
+
+
+
+.checkOutDiv {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    align-items: center;
+    height: 15vh;
+    bottom: 4vh;
+}
+
+.checkOutDiv a {
+    display: flex;
+    box-shadow: 0px 0px 10px -3px black;
+    width: 20vw;
+    background: green;
+    border: 1px solid green;
+    border-radius: 50px;
+    height: 3rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.checkOutDiv a:hover {
+    color: white;
+}
